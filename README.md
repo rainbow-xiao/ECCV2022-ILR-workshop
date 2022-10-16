@@ -2,7 +2,7 @@
 
 #### [Competition on kaggle](https://www.kaggle.com/competitions/google-universal-image-embedding/)
 #### [ECCV 2022 Instance-Level Recognition workshop](https://ilr-workshop.github.io/ECCVW2022/)
-#### [My kaggle profile](https://www.kaggle.com/w3579628328)
+#### [Kaggle profile](https://www.kaggle.com/w3579628328)
 #### [Inference notebook](https://www.kaggle.com/code/w3579628328/2nd-place-solution)
 
 ## HARDWARE & SOFTWARE
