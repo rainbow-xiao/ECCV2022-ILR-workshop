@@ -25,16 +25,27 @@ Pytorch: 1.9.0+cu111
     [Art_MET](https://www.kaggle.com/datasets/dschettler8845/the-met-dataset)
     
     [DeepFashion(Consumer-to-shop)](https://www.kaggle.com/datasets/sangamman/deepfashion-consumer-to-shop-training)
+    
     [DeepFashion2(hard-triplets)](https://www.kaggle.com/datasets/sangamman/deepfashion2-hard-triplets)
+    
     [Fashion200K](https://www.kaggle.com/datasets/mayukh18/fashion200k-dataset)
+    
     [ICCV 2021 LargeFineFoodAI](https://www.kaggle.com/competitions/largefinefoodai-iccv-recognition/data)
+    
     [Food Recognition 2022](https://www.kaggle.com/datasets/sainikhileshreddy/food-recognition-2022)
+    
     [JD_Products_10K](https://www.kaggle.com/c/products-10k)
+    
     [Landmark2021](https://www.kaggle.com/competitions/landmark-retrieval-2021)
+    
     [Grocery Store](https://github.com/marcusklasson/GroceryStoreDataset)
+    
     [rp2k](https://www.pinlandata.com/rp2k_dataset/)
+    
     [Shopee](https://www.kaggle.com/competitions/shopee-product-matching)
+    
     [Stanford_Cars](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+    
     [Stanford_Products](https://cvgl.stanford.edu/projects/lifted_struct/)
 
 2. Run **Get_Data.ipynb** to create a csv file to corresponds to images for each dataset.
