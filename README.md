@@ -88,4 +88,4 @@ python -m torch.distributed.launch --nproc_per_node=6 \
 ```
 
 ## Contact
-Feel free to contact me if you have questions, email: 3579628328@qq.com
+Email: 3579628328@qq.com
