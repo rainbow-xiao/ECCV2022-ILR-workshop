@@ -1,21 +1,29 @@
 # Google Universal Image Embedding Challenge 2nd Place Solution
 
-### [Competition on kaggle](https://www.kaggle.com/competitions/google-universal-image-embedding/)
-### [Instance-Level Recognition workshop](https://ilr-workshop.github.io/ECCVW2022/)
-### [My kaggle profile](https://www.kaggle.com/w3579628328)
-### [Inference notebook](https://www.kaggle.com/code/w3579628328/2nd-place-solution)
+#### [Competition on kaggle](https://www.kaggle.com/competitions/google-universal-image-embedding/)
+#### [Instance-Level Recognition workshop](https://ilr-workshop.github.io/ECCVW2022/)
+#### [My kaggle profile](https://www.kaggle.com/w3579628328)
+#### [Inference notebook](https://www.kaggle.com/code/w3579628328/2nd-place-solution)
 
 ## HARDWARE & SOFTWARE
+
 Ubuntu 18.04.3 LTS
+
 CPU: AMD EPYC 7543 32-Core Processor
+
 GPU: 6 * NVIDIA A40 PCIe, Memory: 48G
+
 Python: 3.8
+
 Pytorch: 1.9.0+cu111
 
 ## Data Preparation
 1. Download all data from the data source below:
+
     [Aliproducts](https://tianchi.aliyun.com/competition/entrance/231780/introduction)
+    
     [Art_MET](https://www.kaggle.com/datasets/dschettler8845/the-met-dataset)
+    
     [DeepFashion(Consumer-to-shop)](https://www.kaggle.com/datasets/sangamman/deepfashion-consumer-to-shop-training)
     [DeepFashion2(hard-triplets)](https://www.kaggle.com/datasets/sangamman/deepfashion2-hard-triplets)
     [Fashion200K](https://www.kaggle.com/datasets/mayukh18/fashion200k-dataset)
