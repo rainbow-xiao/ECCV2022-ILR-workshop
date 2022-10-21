@@ -68,7 +68,7 @@ torch.save(model_visual.state_dict(), './pretrained_models/ViT_H_14_2B_vision_mo
 ```
 
 ## Training
-1. All configurations for **ViT-H-14-Visual** can be found in ./GUIE/config_clip_224.py
+1. All configurations for **ViT-H-14-Visual** can be found in **./GUIE/config_clip_224.py**
 
 2. Training:
 ```bash
