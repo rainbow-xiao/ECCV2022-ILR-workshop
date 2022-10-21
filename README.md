@@ -53,7 +53,7 @@ Pytorch: 1.9.0+cu111
 
 3. Run **Data_preprocessing.ipynb** to filter out classes with less than 3 images, and resize all images to 224.
 
-4. Run **Data_Merge.ipynb** to merge all the csvs, and do sampling and resamping. Will get final_data_224_sample_balance_fold.csv. 
+4. Run **Data_Merge.ipynb** to merge all the csvs, and do sampling and resamping. Will get **final_data_224_sample_balance_fold.csv**. 
 
 ## Model Preparation
 1. Pre-trained ViT-H-14 from [open_clip](https://github.com/mlfoundations/open_clip)
