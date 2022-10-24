@@ -53,7 +53,20 @@ Pytorch: 1.9.0+cu111
 
 3. Run **Data_preprocessing.ipynb** to filter out classes with less than 3 images, and resize all images to 224.
 
-4. Run **Data_Merge.ipynb** to merge all the csvs, and do sampling and resamping. Will get **final_data_224_sample_balance_fold.csv**. 
+4. Run **Data_Merge.ipynb** to merge all the csvs, and do sampling and resamping. Will get **final_data_224_sample_balance.csv**. 
+
+5. Stratified Kfold.
+```bash
+import pandas as pd
+from sklearn.model_selection import StratifiedKFold
+df = pd.read_csv('autodl-tmp/final_data_224_sample_balance.csv')
+df['fold'] = -1
+split = list(StratifiedKFold(n_splits=20, shuffle=True, random_state=999).split(df, df['new_labels']))
+for fold, (train_idx, valid_idx) in enumerate(split):
+    df.loc[valid_idx, 'fold'] = fold
+df.to_csv('autodl-tmp/final_data_224_sample_balance_fold.csv', index=False)
+df.head(5)
+```
 
 ## Model Preparation
 1. Pre-trained ViT-H-14 from [open_clip](https://github.com/mlfoundations/open_clip)
