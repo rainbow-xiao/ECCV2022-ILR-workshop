@@ -224,7 +224,7 @@ def main(config):
     # loss func
     if config.Loss.name == 'ArcFaceLossAdaptiveMargin':
         criterion_class = ArcFaceLossAdaptiveMargin(s=config.Loss.s, 
-                                                    m=config.Loss.s, 
+                                                    m=config.Loss.m, 
                                                     stride=config.Loss.stride_m,
                                                     max_m=config.Loss.max_m).cuda()
     elif config.Loss.name == 'ArcFaceLoss':
