@@ -1,6 +1,7 @@
 # Google Universal Image Embedding Challenge 2022
 # 2nd Place Solution
 
+#### [Paper](https://arxiv.org/abs/2210.08735)
 #### [Competition on kaggle](https://www.kaggle.com/competitions/google-universal-image-embedding/)
 #### [ECCV 2022 Instance-Level Recognition workshop](https://ilr-workshop.github.io/ECCVW2022/)
 #### [Kaggle profile](https://www.kaggle.com/w3579628328)
